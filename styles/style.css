@@ -224,3 +224,75 @@ button {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+
+.problems {
+  padding: 100px 120px;
+  background-color: #f8fafb;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.problem-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.problem-card {
+  background: white;
+  padding: 40px 32px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.problem-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #ff6b6b 0%, #ff5252 100%);
+  border-radius: 50%;
+  color: white;
+}
+
+.card-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.problem-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.problem-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
